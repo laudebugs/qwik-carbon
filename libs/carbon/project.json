@@ -1,0 +1,24 @@
+{
+  "name": "carbon",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/carbon/src",
+  "projectType": "library",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/vite:test",
+      "outputs": ["../..//coverage/libs/carbon"],
+      "options": {
+        "passWithNoTests": true,
+        "reportsDirectory": "../../coverage/libs/carbon"
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/carbon/**/*.{ts,tsx,js,jsx}"]
+      }
+    }
+  },
+  "tags": []
+}
