@@ -1,3 +1,4 @@
-# carbon
+# Qwik Carbon
 
-This library was generated with [Nx](https://nx.dev).
+> An implementation of the Carbon library for the Qwik framework.
+

@@ -5,6 +5,15 @@
   "scripts": {},
   "private": true,
   "dependencies": {
+    "@carbon/colors": "^11.14.0",
+    "@carbon/feature-flags": "^0.13.0",
+    "@carbon/grid": "^11.13.0",
+    "@carbon/layout": "^11.13.0",
+    "@carbon/motion": "^11.10.0",
+    "@carbon/themes": "^11.18.0",
+    "@carbon/type": "^11.17.0",
+    "@ibm/plex": "^6.2.0",
+    "classnames": "^2.3.2",
     "qwik-nx": "0.15.3"
   },
   "devDependencies": {
